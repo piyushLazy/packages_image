@@ -9,12 +9,12 @@ export default defineConfig({
     // Add this configuration:
     host: true, // needed for ngrok
     allowedHosts: [
-      'add7-183-83-52-200.ngrok-free.app' // Your ngrok host
+      'https://packages-image.vercel.app' // Your ngrok host
     ],
     // Optional: If you need CORS in dev server
     cors: {
       origin: [
-        'https://add7-183-83-52-200.ngrok-free.app',
+        'https://packages-image.vercel.app',
         'http://localhost:3000'
       ],
       credentials: true
@@ -25,7 +25,7 @@ export default defineConfig({
     port: 5173,
     host: true,
     allowedHosts: [
-      'add7-183-83-52-200.ngrok-free.app'
+      'packages-image.vercel.app'
     ]
   }
 })
